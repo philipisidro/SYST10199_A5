@@ -42,7 +42,7 @@
         echo $email;
         if (isset($email) && !empty($email)){
             if(preg_match($pattern, $email)){
-                echo <h1>Enter your name! </h1>;
+                echo "<h1>Enter your name! </h1>";
             }else {
                 echo "h1 class=\"error\">Error: Email is invalid</h1>";
             }
