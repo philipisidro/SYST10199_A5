@@ -64,5 +64,3 @@ echo $_POST;
 //         $errMSG = "Password must be minimum 8 characters. " + $tryAgain;
 //     }
 // }
-
-?>
