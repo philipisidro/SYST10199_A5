@@ -12,7 +12,7 @@ function validateName(){
     if (isset($name) && !empty($name)){
         if (preg_match('[a-zA-Z]', $name)){
             clean($name);
-            return $name
+            return $name;
         }else {
             echo "<h1>Error: Username can only contain letters</h1>";
         }
