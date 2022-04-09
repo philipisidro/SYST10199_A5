@@ -5,7 +5,7 @@ $phone = $_POST["userPhone"];
 $age = $_POST["userAge"];
 $password = $_POST["userPassword"];
 
-
+validateName();
 
 function validateName(){
     $name = $_POST["userName"];
