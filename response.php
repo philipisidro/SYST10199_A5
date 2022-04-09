@@ -29,10 +29,10 @@
                 echo " it worked";
                 return $name;
             }else {
-                echo "<h1>Error: Username can only contain letters</h1>";
+                echo "<h1 class=\"error\">Error: Username can only contain letters</h1>";
             }
         }else {
-            echo "<h1>Error: Input Your Name</h1>";
+            echo "h1 class=\"error\">>Error: Input Your Name</h1>";
         };
     }
     function validateEmail(){
@@ -42,12 +42,12 @@
         echo $email;
         if (isset($email) && !empty($email)){
             if(preg_match($pattern, $email)){
-                echo "email worked";
+                echo <h1>Enter your name! </h1>;
             }else {
-                echo "<h1>Error: Email is invalid</h1>";
+                echo "h1 class=\"error\">Error: Email is invalid</h1>";
             }
         }else {
-            echo "<h1>Error: Input Your Email</h1>";
+            echo "h1 class=\"error\">Error: Input Your Email</h1>";
         }
     }
     function validatePhone(){
@@ -59,10 +59,10 @@
             if(preg_match($pattern, $phone)){
                 echo "phone worked";
             }else {
-                echo "<h1>Error: Phone is invalid</h1>";
+                echo "h1 class=\"error\">Error: Phone is invalid</h1>";
             }
         }else {
-            echo "<h1>Error: Input Your Phone</h1>";
+            echo "h1 class=\"error\">Error: Input Your Phone</h1>";
         }
     }
     function validateAge(){
@@ -88,10 +88,10 @@
             if(preg_match($pattern, $password)){
                 echo "password worked";
             }else {
-                echo "<h1>Error: Password is invalid</h1>";
+                echo "h1 class=\"error\">Error: Password is invalid</h1>";
             }
         }else {
-            echo "<h1>Error: Input Your Password</h1>";
+            echo "h1 class=\"error\">Error: Input Your Password</h1>";
         }
     }
 
