@@ -7,34 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Does this work</p>
-    <form action="response.php" method="post">
-        <div class="nameInput">
-            <!-- not empty, only alphabetical characters -->
-            <label for=""></label>
-            <input type="text" name="name" id="">
-        </div>
-        <div class="emailInput">
-            <!-- not empty, valid id -->
-            <label for=""></label>
-            <input type="email" name="email" id="">
-        </div>
-        <div class="phoneInput">
-            <!-- not empty, 10 numbers only  -->
-            <label for=""></label>
-            <input type="number" name="phone" id="">
-        </div>
-        <div class="ageInput">
-            <!-- not empty, min 16 max 99 -->
-            <label for=""></label>
-            <input type="number" name="age" id="">
-        </div>
-        <div class="passwordInput">
-            <!-- not empty, min 8 -->
-            <label for=""></label>
-            <input type="password" name="password" id="">
-        </div>
-        <input type="submit" value="">
+    <form action="/response.php" method="post">
+        <input type="text" nanme="userName" placeholder="User Name">
+        <input type="text" placeholder="Your Email Address">
+        <input type="number" placeholder="Your Phone Number">
+        <input type="number" placeholder="Your Age">
+        <input type="password" placeholder="Your Password ">
     </form>
 </body>
 </html>
