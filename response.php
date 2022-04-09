@@ -3,6 +3,8 @@ $tryAgain = "<a href=\"http://isidrop.dev.fast.sheridanc.on.ca/a5/\"> \" Try Aga
 
 echo $_POST;
 
+?>
+
 // checkName();
 // checkEmail();
 // checkPhone();
