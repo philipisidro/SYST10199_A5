@@ -13,7 +13,8 @@
     $phone = $_POST["userPhone"];
     $age = $_POST["userAge"];
     $password = $_POST["userPassword"];
-    $tryAgain = "<a href=\"https://isidrop.dev.fast.sheridanc.on.ca/A5/\"></a>"
+
+    $tryAgain = "<a href="https://isidrop.dev.fast.sheridanc.on.ca/A5/">Try Again</a>"
 
     echo = $tryAgain;
     validateName();
